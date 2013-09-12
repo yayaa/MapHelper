@@ -13,7 +13,7 @@ General Google Maps
 
 You need to change some information in AndroidManifest.xml to have map:
 
-*** Below lines you need to change `com.yayandroid.maphelper` part into your packagename.
+* **Below lines you need to change `com.yayandroid.maphelper` part into your packagename.**
 
 ```xml
 <permission
@@ -24,7 +24,7 @@ You need to change some information in AndroidManifest.xml to have map:
 <uses-permission android:name="com.yayandroid.maphelper.permission.MAPS_RECEIVE" />
 ```
 
-***And here your need to obtaine a ApiKey and set it:
+* **And here your need to obtaine a ApiKey and set it:**
 
 ```xml
 <meta-data
