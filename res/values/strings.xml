@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapHelper</string>
+    
+    <string name="map_error">GooglePlayServices is not available or your device currently does not support using GoogleMaps.</string>
+    <string name="map_error_unknown">Somehow we are not able to find GoogleMap.</string>
+
+</resources>
