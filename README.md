@@ -5,6 +5,7 @@ While using Google Maps v2 you need to handle lots of staff, such as
   * if google play services is available or not
   * is openGL version is compatible or not
   * SupportMapFragment getMap returns null
+  
 So i collected them all into one helper class, it is now so easy to use mapView by extending this helper class.
 
 General Google Maps
@@ -12,7 +13,7 @@ General Google Maps
 
 You need to change some information in AndroidManifest.xml to have map:
 
-#Below lines you need to change `com.yayandroid.maphelper` part into your packagename.
+*** Below lines you need to change `com.yayandroid.maphelper` part into your packagename.
 
 ```xml
 <permission
@@ -23,7 +24,7 @@ You need to change some information in AndroidManifest.xml to have map:
 <uses-permission android:name="com.yayandroid.maphelper.permission.MAPS_RECEIVE" />
 ```
 
-#And here your need to obtaine a ApiKey and set it:
+***And here your need to obtaine a ApiKey and set it:
 
 ```xml
 <meta-data
@@ -58,6 +59,7 @@ Used Libraries
 ==============
 
 [commonguys AbstractMapActivity][1]
+
 [GeoCoderHelper class][2]
 
 [1]: https://github.com/commonsguy/cw-omnibus/blob/master/MapsV2/Popups/src/com/commonsware/android/mapsv2/popups/AbstractMapActivity.java
