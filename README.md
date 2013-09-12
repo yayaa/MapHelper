@@ -7,6 +7,7 @@ While using Google Maps v2 you need to handle lots of staff, such as
   * SupportMapFragment getMap returns null
   
 So i collected them all into one helper class, it is now so easy to use mapView by extending this helper class.
+(Any pull requests or improvement suggestions are welcomed.)
 
 General Google Maps
 -------------------
