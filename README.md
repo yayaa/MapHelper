@@ -9,7 +9,7 @@ While using Google Maps v2 you need to handle lots of staff, such as
 So i collected them all into one helper class, it is now so easy to use mapView by extending this helper class.
 
 General Google Maps
-===================
+-------------------
 
 You need to change some information in AndroidManifest.xml to have map:
 
@@ -20,7 +20,6 @@ You need to change some information in AndroidManifest.xml to have map:
         android:name="com.yayandroid.maphelper.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
         
-
 <uses-permission android:name="com.yayandroid.maphelper.permission.MAPS_RECEIVE" />
 ```
 
@@ -28,12 +27,12 @@ You need to change some information in AndroidManifest.xml to have map:
 
 ```xml
 <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="YOUR_API_KEY" />
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="YOUR_API_KEY" />
 ```
 
 Usage
-=====
+-----
 
 You just need to extend your fragment from MapHelperFragment, and then override these below methods:
 
@@ -56,7 +55,7 @@ If you called getLocationInfo method, then it will call this method when it find
 
 
 Used Libraries
-==============
+--------------
 
 [commonguys AbstractMapActivity][1]
 
