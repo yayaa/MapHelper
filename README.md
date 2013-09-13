@@ -2,7 +2,7 @@ MapHelper
 =========
 
 While using Google Maps v2 you need to handle lots of staff, such as 
-  * if google play services is available or not
+  * if Google Play Services are available or not
   * is openGL version is compatible or not
   * SupportMapFragment getMap returns null
   
@@ -24,7 +24,7 @@ You need to change some information in AndroidManifest.xml to have map:
 <uses-permission android:name="com.yayandroid.maphelper.permission.MAPS_RECEIVE" />
 ```
 
-* **And here your need to obtain a ApiKey and set it:**
+* **And here your need to obtain an ApiKey and set it:**
 
 ```xml
 <meta-data
