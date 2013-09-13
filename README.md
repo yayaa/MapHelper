@@ -24,7 +24,7 @@ You need to change some information in AndroidManifest.xml to have map:
 <uses-permission android:name="com.yayandroid.maphelper.permission.MAPS_RECEIVE" />
 ```
 
-* **And here your need to obtaine a ApiKey and set it:**
+* **And here your need to obtain a ApiKey and set it:**
 
 ```xml
 <meta-data
