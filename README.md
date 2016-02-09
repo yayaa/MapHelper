@@ -1,7 +1,7 @@
 MapHelper
 =========
 
-While using Google Maps v2 you need to handle lots of staff, such as 
+While using Google Maps v2 you need to handle lots of stuff, such as 
   * if Google Play Services are available or not
   * is openGL version is compatible or not
   * SupportMapFragment getMap returns null
