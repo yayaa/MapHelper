@@ -1,5 +1,6 @@
 MapHelper
 =========
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 While using Google Maps v2 you need to handle lots of stuff, such as 
   * if Google Play Services are available or not
